@@ -29,6 +29,6 @@ function runCalculation() {
 
   checkNames(names, 'Avi', 'Kimaya', 0, 20,9);
   checkNames(names, 'James', 'Izzy', 0, 30, 10);
-  checkNames(names, 'Will', 'Izzy', 0, 30, 111);
-  checkNames(names, p1, p2, 0, 100, 8);
+  checkNames(names, 'Will', 'Izzy', 0, 30, 11);
+  checkNames(names, p1, p2, 0, 100, 12);
 }
