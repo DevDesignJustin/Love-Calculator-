@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 90%;
   margin: 0 auto;
   padding: 0 20px;
   overflow: hidden;
@@ -31,12 +31,13 @@ body {
 
 #main {
   height: 100vh;
+  width: 100vw;
 }
 
 #main div {
   flex-direction: column;
   display: flex;
-  margin-top: 25%;
+  margin-top: 20%;
 }
 
 h1 {
@@ -67,5 +68,11 @@ button {
 @media (max-width: 768px) {
   #main div {
     margin-top: 50%;
+  }
+}
+
+@media (max-width: 530px) {
+  #main div {
+    margin-top: 75%;
   }
 }
