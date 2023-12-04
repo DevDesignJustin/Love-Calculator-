@@ -6,7 +6,7 @@ function runCalculation() {
   function checkNames(name, check1, check2, min, max, count) {
     if (name.includes(check1) && name.includes(check2) && x == count) {
       getNumber(min, max);
-      x = x + 20;
+      x = x + 100;
     }
     {
       x = x + 1;
