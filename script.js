@@ -18,18 +18,6 @@ function runCalculation() {
   function loveAlert(randomNumber) {
     alert(`${p1} and ${p2} love ${randomNumber}%`);
   }
-  checkNames(names, 'Justin', 'Evie', 90, 100, 1);
-  checkNames(names, 'Justin', 'Christina', 80, 90, 2);
-  checkNames(names, 'Avi', 'Devina', 80, 100, 3);
-  checkNames(names, 'Caden', 'Izzy', 90, 100, 4);
-  checkNames(names, 'Lorenzo', 'Izzy', 60, 70, 5);
-  checkNames(names, 'Quinn', 'Marco', 80, 100, 6);
-  checkNames(names, 'Lorenzo', 'Marco', 80, 100, 7);
-  checkNames(names, 'Caden', 'Ryan Reynolds', 99, 100, 8);
-  checkNames(names, 'Luke', 'Lily', 99, 100, 9);
-
-  checkNames(names, 'Avi', 'Kimaya', 0, 20, 10);
-  checkNames(names, 'James', 'Izzy', 0, 30, 12);
-  checkNames(names, 'Will', 'Izzy', 0, 30, 13);
-  checkNames(names, p1, p2, 0, 100, 13);
+  checkNames(names, 'Audrey', 'Sam', 99, 100, 1);
+  checkNames(names, p1, p2, 0, 100, 2);
 }
